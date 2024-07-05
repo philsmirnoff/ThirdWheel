@@ -16,10 +16,10 @@ const ListContainer = styled.ul`
 
 const NavItem = styled.li<{ menu ?: any}>`
   ${tw`
-    text-xs
+    text-sm
     md:text-base
     text-black
-    font-medium
+    font-bold
     mr-1
     md:mr-5
     cursor-pointer
