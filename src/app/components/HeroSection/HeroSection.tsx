@@ -4,6 +4,7 @@ import tw from "twin.macro";
 import BlobImg from "../../assets/images/blobimg.svg";
 import DodgeImg from "../../assets/images/dodge.png";
 import { SCREENS } from "../Responsive/screen-constants";
+import Button from "../Button";
 
 const HeroSectionContainer = styled.div`
   min-height: 400px;
@@ -140,6 +141,14 @@ const StandaloneCar = styled.div`
   }
 `;
 
+const ButtonsContainer = styled.div`
+  ${tw`
+    flex
+    flex-wrap
+    mt-4
+  `};
+`;
+
 
 const TopSection = () => {
   return (
@@ -147,6 +156,10 @@ const TopSection = () => {
       <LeftContainer>
       <Slogan>Rent Absolute the Beast Wheels With Us</Slogan>
       <Description>Always choose the best car, motorcycle or even eBike from our local stores or order it remotely at the best price for you and get the beast quality wheels for as long as you like</Description>
+      <ButtonsContainer>
+          <Button text="Book Your Ride" />
+          <Button theme="filled" text="Sell Your Wheels" />
+        </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
       <BlobContainer>
