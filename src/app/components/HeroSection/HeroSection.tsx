@@ -145,12 +145,12 @@ const ButtonsContainer = styled.div`
   ${tw`
     flex
     flex-wrap
-    mt-4
+    mt-2
   `};
 `;
 
 
-const TopSection = () => {
+const HeroSection = () => {
   return (
     <HeroSectionContainer>
       <LeftContainer>
@@ -173,4 +173,4 @@ const TopSection = () => {
   );
 }
 
-export default TopSection;
+export default HeroSection;
