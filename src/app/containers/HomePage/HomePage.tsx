@@ -7,6 +7,7 @@ import HeroSection from '../../components/HeroSection/HeroSection';
 import { Marginer } from '../../components/Marginer/Marginer';
 import BookingSteps from '../../components/BookingSteps/BookingSteps';
 import AboutUs from '../../components/AboutUs/AboutUs';
+import TopCars from '../../components/TopCars/TopCars';
 
 const PageContainer = styled.div`
   ${tw`
@@ -32,6 +33,8 @@ const HomePage = () => {
       <BookingSteps />
       <Marginer direction="vertical" margin="8em" />
       <AboutUs />
+      <Marginer direction="vertical" margin="8em" />
+      <TopCars />
     </PageContainer>
   );
 };
