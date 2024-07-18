@@ -54,7 +54,7 @@ const PricesContainer = styled.div`
   ${tw`
     w-full
     flex
-    justify-start
+    justify-center
     mt-3
   `};
 `;
