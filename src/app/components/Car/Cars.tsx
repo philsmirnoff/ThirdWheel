@@ -46,7 +46,7 @@ const CarName = styled.h3`
     font-bold
     text-black
     mt-1
-    mb-1
+    mb-0
   `};
 `;
 
@@ -55,7 +55,7 @@ const PricesContainer = styled.div`
     w-full
     flex
     justify-center
-    mt-3
+    mt-0
   `};
 `;
 
@@ -63,8 +63,8 @@ const SmallText = styled.p`
   color: inherit;
   ${tw`
     inline-flex
-    text-xs
-    font-thin
+    text-sm
+    font-normal
   `};
 `;
 
@@ -72,8 +72,10 @@ const DailyPrice = styled.h5`
   ${tw`
     text-red-500
     font-bold
-    text-sm
+    text-lg
     mr-3
+    mt-0
+    mb-0
   `};
 `;
 
@@ -81,7 +83,9 @@ const MonthlyPrice = styled.h5`
   ${tw`
     text-gray-500
     font-bold
-    text-sm
+    text-lg
+    mt-0
+    mb-0
   `};
 `;
 
@@ -90,6 +94,7 @@ const SmallIcon = styled.span`
     text-gray-400
     text-sm
     mr-1
+    mb-5
   `};
 `;
 
@@ -98,6 +103,8 @@ const CarDetailsContainer = styled.div`
     flex
     w-full
     justify-between
+    mt-0
+    mb-0
   `};
 `;
 
@@ -105,13 +112,15 @@ const CarDetail = styled.span`
   ${tw`
     flex
     items-center
+    mt-1
   `};
 `;
 
 const CarInfo = styled.h6`
   ${tw`
     text-gray-400
-    text-xs
+    text-sm
+    mt-3
   `};
 `;
 
@@ -121,15 +130,15 @@ const Seperator = styled.div`
   ${tw`
     flex
     bg-gray-300
-    mt-2
-    mb-2
+    mt-0
+    mb-0
   `};
 `;
 
 const RentButton = styled(Button)`
   ${tw`
     min-w-full
-    mt-5
+    mt-0
   `};
 `;
 
